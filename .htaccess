@@ -22,6 +22,8 @@ RewriteRule ^armas/([0-9]*)/?$ index.php?ctrl=armas
 
 RewriteRule ^infoagent/(.*)/$ index.php?ctrl=infoagent&agent=$1
 
+RewriteRule ^infocontract/(.*)/$ index.php?ctrl=infocontract&contract=$1
+
 # RewriteRule ^albums/([0-9]*)/?$ index.php?ctrl=albums&user=$1
 
 # RewriteRule ^infopost/([0-9]*)/?$ index.php?ctrl=infopost

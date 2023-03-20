@@ -3,7 +3,7 @@
     <div class="row m-3">
     {foreach $dataContracts->data as $contract}
         <div class="col-md-4 col-sm-6 my-3">
-            
+            <a href="/infocontract/{$contract->uuid}/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center">
                         <span class="color-title-card">{$contract->displayName}</span>
@@ -11,7 +11,7 @@
 
                     </div>
                 </div>
-            
+            </a>
         </div>
     {/foreach}    
 
