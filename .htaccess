@@ -1,0 +1,33 @@
+DirectoryIndex index.php
+
+RewriteEngine on
+
+Options +FollowSymLinks -MultiViews
+
+RewriteRule ^home/([0-9]*)/?$ index.php?ctrl=home
+
+RewriteRule ^agents/([0-9]*)/?$ index.php?ctrl=agents
+
+RewriteRule ^modosdejuego/([0-9]*)/?$ index.php?ctrl=modosdejuego
+
+RewriteRule ^contratos/([0-9]*)/?$ index.php?ctrl=contratos
+
+RewriteRule ^equipamiento/([0-9]*)/?$ index.php?ctrl=equipamiento
+
+RewriteRule ^eventos/([0-9]*)/?$ index.php?ctrl=eventos
+
+RewriteRule ^mapas/([0-9]*)/?$ index.php?ctrl=mapas
+
+RewriteRule ^armas/([0-9]*)/?$ index.php?ctrl=armas
+
+RewriteRule ^infoagent/(.*)/$ index.php?ctrl=infoagent&agent=$1
+
+# RewriteRule ^albums/([0-9]*)/?$ index.php?ctrl=albums&user=$1
+
+# RewriteRule ^infopost/([0-9]*)/?$ index.php?ctrl=infopost
+
+# RewriteRule ^photos/([0-9]*)/?$ index.php?ctrl=photos&photo=$1
+
+# RewriteRule ^404/$ index.php?ctrl=page404
+
+# ErrorDocument 404 /404/

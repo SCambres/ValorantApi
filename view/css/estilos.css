@@ -1,0 +1,76 @@
+body{
+    background-color: #d6d6dd;
+}
+h3{
+    font-family: poppins,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.estilo{
+    font-family: 'VALORANT', sans-serif !important;
+} 
+
+.ancho{
+    min-height: 130px !important;
+}
+
+.alto{
+    min-width: 200px !important;
+}
+
+.card:hover {
+    background-color: #555;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  }
+
+#footer .social-links a:hover {
+    background: #ffffff33;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.navbar{
+    z-index: 999;
+}
+
+@media (max-width: 600px) {
+    .card{
+        min-width: auto;
+    }
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.game-mode-img{
+    width: 130px !important; /* Cambia este valor por el ancho deseado para las imágenes */
+    object-fit: cover;
+}
+
+.gear-img{
+    width: 200px !important; /* Cambia este valor por el ancho deseado para las imágenes */
+    object-fit: cover;
+}
+
+.color-title-card{
+    color: #FF4655
+}
+
+#mapIcon{
+    max-width: 350px;
+}
+
+
+  
