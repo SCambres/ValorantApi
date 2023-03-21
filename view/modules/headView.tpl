@@ -10,7 +10,7 @@
     <!-- SweetAlert2 libreria para personalizar alertas -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Archivo CSS  -->
-    <link rel="stylesheet" type="text/css" href="../view/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/view/css/estilos.css">
     
     <!-- Fuente de valorant -->
     <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">

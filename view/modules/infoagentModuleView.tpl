@@ -19,11 +19,11 @@
             </div>
             <div class="row card-deck">
             {foreach $dataInfoAgent->data->abilities as $abilities}
-                <div class="col-md-6 col-lg-6 mb-4" style="z-index: -999"><hr>
-                    <div class="card">
-                        <div class="card-header text-center" >
+                <div class="col-md-12 col-lg-6 mb-4" style="z-index: -999"><hr>
+                    <div class="card h-100">
+                        <div class="card-header text-center h-100" style="background-image:url({$abilities->displayIcon});">
                             <h5 class="card-title"><strong class="text-danger">{$abilities->displayName}</strong></h5>
-                            <div class="card-body" style="background-image:url({$abilities->displayIcon});">
+                            <div class="card-body" >
                                 <p> {$abilities->description}</p>
                             </div>
                         </div>

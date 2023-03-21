@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-20 16:17:00
+/* Smarty version 4.3.0, created on 2023-03-21 09:16:19
   from '/var/www/ejercicios/Tarea5/view/modules/infoagentModuleView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_641878ec8b8705_90524213',
+  'unifunc' => 'content_641967d30429f3_60390565',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f8a4aaa6a81452076651a8bfd10f0aa49da919ef' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/infoagentModuleView.tpl',
-      1 => 1679325418,
+      1 => 1679386575,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_641878ec8b8705_90524213 (Smarty_Internal_Template $_smarty_tpl) {
+function content_641967d30429f3_60390565 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="container-fluid p-5">
     <h3 class="my-4 text-center"><?php echo $_smarty_tpl->tpl_vars['dataInfoAgent']->value->data->displayName;?>
 </h3>
@@ -52,13 +52,13 @@ $_smarty_tpl->tpl_vars['abilities']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['abilities']->value) {
 $_smarty_tpl->tpl_vars['abilities']->do_else = false;
 ?>
-                <div class="col-md-6 col-lg-6 mb-4" style="z-index: -999"><hr>
-                    <div class="card">
-                        <div class="card-header text-center" >
+                <div class="col-md-12 col-lg-6 mb-4" style="z-index: -999"><hr>
+                    <div class="card h-100">
+                        <div class="card-header text-center h-100" style="background-image:url(<?php echo $_smarty_tpl->tpl_vars['abilities']->value->displayIcon;?>
+);">
                             <h5 class="card-title"><strong class="text-danger"><?php echo $_smarty_tpl->tpl_vars['abilities']->value->displayName;?>
 </strong></h5>
-                            <div class="card-body" style="background-image:url(<?php echo $_smarty_tpl->tpl_vars['abilities']->value->displayIcon;?>
-);">
+                            <div class="card-body" >
                                 <p> <?php echo $_smarty_tpl->tpl_vars['abilities']->value->description;?>
 </p>
                             </div>

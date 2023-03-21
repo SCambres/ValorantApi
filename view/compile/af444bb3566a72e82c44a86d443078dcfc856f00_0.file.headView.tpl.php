@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-16 16:05:10
+/* Smarty version 4.3.0, created on 2023-03-21 09:10:27
   from '/var/www/ejercicios/Tarea5/view/modules/headView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64133026b19b98_04274728',
+  'unifunc' => 'content_64196673525745_78062578',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'af444bb3566a72e82c44a86d443078dcfc856f00' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/headView.tpl',
-      1 => 1678979104,
+      1 => 1679386224,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64133026b19b98_04274728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64196673525745_78062578 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="es">
 <head>
@@ -35,7 +35,7 @@ function content_64133026b19b98_04274728 (Smarty_Internal_Template $_smarty_tpl)
  src="https://cdn.jsdelivr.net/npm/sweetalert2@11"><?php echo '</script'; ?>
 >
     <!-- Archivo CSS  -->
-    <link rel="stylesheet" type="text/css" href="../view/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/view/css/estilos.css">
     
     <!-- Fuente de valorant -->
     <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
