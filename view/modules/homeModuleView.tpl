@@ -75,41 +75,50 @@
             </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
-                    </h4>
+            <a href="/chromasskin/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
+                        </h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
+            <a href="/bundleskin/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
+            <a href="/cardsplayer/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
-                    </h4>
+            <a href="/titlesplayer/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
+                        </h4>
+                    </div>
                 </div>
-            </div>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
+            <a href="/sprays/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
             <a href="/seasson/">

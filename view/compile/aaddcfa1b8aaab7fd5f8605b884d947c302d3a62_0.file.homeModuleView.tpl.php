@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-21 12:45:22
+/* Smarty version 4.3.0, created on 2023-03-21 17:35:33
   from '/var/www/ejercicios/Tarea5/view/modules/homeModuleView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_641998d2a8ad61_06938982',
+  'unifunc' => 'content_6419dcd5a0a522_53278005',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'aaddcfa1b8aaab7fd5f8605b884d947c302d3a62' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/homeModuleView.tpl',
-      1 => 1679399119,
+      1 => 1679416293,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_641998d2a8ad61_06938982 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6419dcd5a0a522_53278005 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="container-fluid p-5">
     <div class="row m-3">
         <div class="col-md-4 col-sm-6 my-3">
@@ -98,41 +98,50 @@ function content_641998d2a8ad61_06938982 (Smarty_Internal_Template $_smarty_tpl)
             </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
-                    </h4>
+            <a href="/chromasskin/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
+                        </h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
+            <a href="/bundleskin/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
+            <a href="/cardsplayer/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
-                    </h4>
+            <a href="/titlesplayer/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
+                        </h4>
+                    </div>
                 </div>
-            </div>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center">
-                    <h4 class="card-title estilo"><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
+            <a href="/sprays/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
             <a href="/seasson/">

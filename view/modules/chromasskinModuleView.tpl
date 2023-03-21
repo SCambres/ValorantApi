@@ -1,7 +1,9 @@
 <div class="container-fluid p-5">
 <h3 class="my-4 text-center">SKINS CHROMAS</h3>
 
+    {* Bucle que recorre los datos de las aramas asociandoles un indice *}
     {foreach $dataGunsSkin->data as $index => $gun}
+        {* Controlamos que no pinte en el carrousel cuando no haya imagen *}
         {if !empty($gun->displayIcon)}
         <h4 class="my-4 text-center">{$gun->displayName}</h4>
         <div id="carouselExampleIndicators-{$index}" class="carousel slide" data-ride="carousel">
@@ -21,11 +23,11 @@
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators-{$index}" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators-{$index}" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Siguiente</span>
             </a>
         </div>
         {/if}
