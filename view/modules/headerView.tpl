@@ -24,8 +24,8 @@
           COSMÉTICOS
         </a>
         <div class="dropdown-menu" aria-labelledby="cosmeticosDropdown">
-          <a class="dropdown-item" href="#"><i class="fa-solid fa-gun"></i> Skin armas</a>
-          <a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-person-rifle"></i> Skin chromas</a>
+          <a class="dropdown-item" href="/gunsskin/"><i class="fa-solid fa-gun"></i> Skin armas</a>
+          <a class="dropdown-item" href="/chromasskin/"><i class="fa-sharp fa-solid fa-person-rifle"></i> Skin chromas</a>
           <a class="dropdown-item" href="#"><i class="fa-brands fa-wolf-pack-battalion"></i> Bundle skins</a>
           <a class="dropdown-item" href="#"><i class="fa-solid fa-id-card-clip"></i> Tarjetas jugador</a>
           <a class="dropdown-item" href="#"><i class="fa-solid fa-closed-captioning"></i> Títulos jugador</a>
@@ -33,13 +33,10 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link" href="/seasson/">SEASSON</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SEASSON</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">RANGOS</a>
+        <a class="nav-link" href="/rangos/">RANGOS</a>
       </li>
     </ul>
   </div>

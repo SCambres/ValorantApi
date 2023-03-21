@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-16 16:23:23
+/* Smarty version 4.3.0, created on 2023-03-21 14:04:26
   from '/var/www/ejercicios/Tarea5/view/modules/headerView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6413346bebfed9_51255719',
+  'unifunc' => 'content_6419ab5a843ce4_87207862',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4d4abfe0856bebd4f6e5d6962ec23ff21baf6a5c' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/headerView.tpl',
-      1 => 1678980188,
+      1 => 1679403864,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6413346bebfed9_51255719 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6419ab5a843ce4_87207862 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="navbar navbar-expand-md navbar-dark bg-dark position-fixed w-100" id="navbar">
   <a class="navbar-brand" href="/home/" style="font-family: 'VALORANT', sans-serif;">VALORANT</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,8 +47,8 @@ function content_6413346bebfed9_51255719 (Smarty_Internal_Template $_smarty_tpl)
           COSMÉTICOS
         </a>
         <div class="dropdown-menu" aria-labelledby="cosmeticosDropdown">
-          <a class="dropdown-item" href="#"><i class="fa-solid fa-gun"></i> Skin armas</a>
-          <a class="dropdown-item" href="#"><i class="fa-sharp fa-solid fa-person-rifle"></i> Skin chromas</a>
+          <a class="dropdown-item" href="/gunsskin/"><i class="fa-solid fa-gun"></i> Skin armas</a>
+          <a class="dropdown-item" href="/chromasskin/"><i class="fa-sharp fa-solid fa-person-rifle"></i> Skin chromas</a>
           <a class="dropdown-item" href="#"><i class="fa-brands fa-wolf-pack-battalion"></i> Bundle skins</a>
           <a class="dropdown-item" href="#"><i class="fa-solid fa-id-card-clip"></i> Tarjetas jugador</a>
           <a class="dropdown-item" href="#"><i class="fa-solid fa-closed-captioning"></i> Títulos jugador</a>
@@ -56,13 +56,10 @@ function content_6413346bebfed9_51255719 (Smarty_Internal_Template $_smarty_tpl)
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link" href="/seasson/">SEASSON</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SEASSON</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">RANGOS</a>
+        <a class="nav-link" href="/rangos/">RANGOS</a>
       </li>
     </ul>
   </div>

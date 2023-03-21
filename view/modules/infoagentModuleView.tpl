@@ -15,7 +15,6 @@
             </div>
             <div class="text-center">
             <strong >HABILIDADES </strong>
-
             </div>
             <div class="row card-deck">
             {foreach $dataInfoAgent->data->abilities as $abilities}
@@ -28,7 +27,6 @@
                             </div>
                         </div>
                     </div>
-                
                 </div>
             {/foreach}
             </div>

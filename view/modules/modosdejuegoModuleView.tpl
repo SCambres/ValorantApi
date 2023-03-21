@@ -8,7 +8,14 @@
                 <div class="card text-white bg-dark align-items-center h-100" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center">
                         <span><strong class="color-title-card">{$modes->displayName}</strong></span>
-                        <img src="{$modes->displayIcon}" alt="Imagen correspondiente al modo de juego" class="game-mode-img">
+                        {if !empty({$modes->displayIcon})}
+                        <img src="{$modes->displayIcon}" class="game-mode-img">
+                        {/if}
+                        {if !empty({$modes->duration})}
+                            <hr><p class="card-text"><strong>Duración: </strong> {$modes->duration}</p>
+                            {else}
+                             <p>Modo de juego individual</p>   
+                        {/if}
                     </div>
                 </div>
             </a>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-21 09:16:19
+/* Smarty version 4.3.0, created on 2023-03-21 10:22:18
   from '/var/www/ejercicios/Tarea5/view/modules/infoagentModuleView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_641967d30429f3_60390565',
+  'unifunc' => 'content_6419774a2fd9f1_45583241',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f8a4aaa6a81452076651a8bfd10f0aa49da919ef' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/infoagentModuleView.tpl',
-      1 => 1679386575,
+      1 => 1679390093,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_641967d30429f3_60390565 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6419774a2fd9f1_45583241 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="container-fluid p-5">
     <h3 class="my-4 text-center"><?php echo $_smarty_tpl->tpl_vars['dataInfoAgent']->value->data->displayName;?>
 </h3>
@@ -43,7 +43,6 @@ function content_641967d30429f3_60390565 (Smarty_Internal_Template $_smarty_tpl)
             </div>
             <div class="text-center">
             <strong >HABILIDADES </strong>
-
             </div>
             <div class="row card-deck">
             <?php
@@ -64,7 +63,6 @@ $_smarty_tpl->tpl_vars['abilities']->do_else = false;
                             </div>
                         </div>
                     </div>
-                
                 </div>
             <?php
 }
