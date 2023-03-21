@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-16 16:55:29
+/* Smarty version 4.3.0, created on 2023-03-21 12:45:22
   from '/var/www/ejercicios/Tarea5/view/modules/homeModuleView.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64133bf19b3735_46211421',
+  'unifunc' => 'content_641998d2a8ad61_06938982',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'aaddcfa1b8aaab7fd5f8605b884d947c302d3a62' => 
     array (
       0 => '/var/www/ejercicios/Tarea5/view/modules/homeModuleView.tpl',
-      1 => 1678982121,
+      1 => 1679399119,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl) {
+function content_641998d2a8ad61_06938982 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="container-fluid p-5">
     <div class="row m-3">
         <div class="col-md-4 col-sm-6 my-3">
@@ -45,7 +45,7 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
             <a href="/contratos/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center ">
-                        <h4 class="card-title estilo" ><i class="fa-solid fa-file-contract"></i> CONTRATOS
+                        <h4 class="card-title estilo"><i class="fa-solid fa-file-contract"></i> CONTRATOS
                             PERSONALES
                         </h4>
                     </div>
@@ -56,7 +56,7 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
             <a href="/equipamiento/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center ">
-                        <h4 class="card-title estilo" ><i class="fa-solid fa-shield-halved"></i> EQUIPAMIENTO</h4>
+                        <h4 class="card-title estilo"><i class="fa-solid fa-shield-halved"></i> EQUIPAMIENTO</h4>
                     </div>
                 </div>
             </a>
@@ -65,7 +65,7 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
             <a href="/eventos/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center ">
-                        <h4 class="card-title estilo" ><i class="fa-solid fa-calendar"></i> EVENTOS</h4>
+                        <h4 class="card-title estilo"><i class="fa-solid fa-calendar"></i> EVENTOS</h4>
                     </div>
                 </div>
             </a>
@@ -74,7 +74,7 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
             <a href="/mapas/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center ">
-                        <h4 class="card-title estilo" ><i class="fa-solid fa-map"></i> MAPAS</h4>
+                        <h4 class="card-title estilo"><i class="fa-solid fa-map"></i> MAPAS</h4>
                     </div>
                 </div>
             </a>
@@ -83,7 +83,16 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
             <a href="/armas/">
                 <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                     <div class="card-body d-flex flex-column justify-content-center ">
-                        <h4 class="card-title estilo" ><i class="fa-solid fa-person-rifle"></i> ARMAS</h4>
+                        <h4 class="card-title estilo"><i class="fa-solid fa-person-rifle"></i> ARMAS</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 my-3">
+            <a href="/gunsskin/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center ">
+                        <h4 class="card-title estilo"><i class="fa-solid fa-gun"></i> SKIN ARMAS</h4>
                     </div>
                 </div>
             </a>
@@ -91,14 +100,7 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
         <div class="col-md-4 col-sm-6 my-3">
             <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                 <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo" ><i class="fa-solid fa-gun"></i> SKIN ARMAS</h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo" ><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
+                    <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-person-rifle"></i> SKIN CHROMAS
                     </h4>
                 </div>
             </div>
@@ -106,21 +108,21 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
         <div class="col-md-4 col-sm-6 my-3">
             <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                 <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo" ><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
+                    <h4 class="card-title estilo"><i class="fa-brands fa-wolf-pack-battalion"></i> BUNDLE SKIN</h4>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
             <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                 <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo" ><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
+                    <h4 class="card-title estilo"><i class="fa-solid fa-id-card-clip"></i> TARJETAS JUGADOR</h4>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
             <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                 <div class="card-body d-flex flex-column justify-content-center ">
-                    <h4 class="card-title estilo" ><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
+                    <h4 class="card-title estilo"><i class="fa-solid fa-closed-captioning"></i> TITULOS JUGADOR
                     </h4>
                 </div>
             </div>
@@ -128,23 +130,27 @@ function content_64133bf19b3735_46211421 (Smarty_Internal_Template $_smarty_tpl)
         <div class="col-md-4 col-sm-6 my-3">
             <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
                 <div class="card-body d-flex flex-column justify-content-center">
-                    <h4 class="card-title estilo" ><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
+                    <h4 class="card-title estilo"><i class="fa-solid fa-spray-can"></i> SPRAYS</h4>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center">
-                    <h4 class="card-title estilo" ><i class="fa-regular fa-calendar"></i> SEASSON</h4>
+            <a href="/seasson/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h4 class="card-title estilo"><i class="fa-regular fa-calendar"></i> SEASSON</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-6 my-3">
-            <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
-                <div class="card-body d-flex flex-column justify-content-center">
-                    <h4 class="card-title estilo" ><i class="fa-sharp fa-solid fa-medal"></i> RANGOS</h4>
+            <a href="/rangos/">
+                <div class="card card text-white bg-dark align-items-center ancho" id="hoverCard">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h4 class="card-title estilo"><i class="fa-sharp fa-solid fa-medal"></i> RANGOS</h4>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div><?php }
