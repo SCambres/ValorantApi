@@ -1,9 +1,16 @@
+//Ponemos en false el automático del
 $(document).ready(function() {
-    $('#carouselExampleIndicators').carousel({
-      interval: false
-    });
-  });
+    const carousels = $('.carousel');
 
+// Iterar sobre los elementos y aplicar la configuración
+carousels.each(function() {
+  $(this).carousel({
+    interval: false
+  });
+});
+  });
+  
+  //Función para filtrar por nombre y mostrar la indicada en el carrusel
   function searchSkin() {
     var searchValue = document.getElementById("searchInput").value.toLowerCase();
     var slides = document.querySelectorAll("#carouselExampleIndicators .carousel-item");

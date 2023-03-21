@@ -26,6 +26,8 @@ RewriteRule ^armas/([0-9]*)/?$ index.php?ctrl=armas
 
 RewriteRule ^gunsskin/([0-9]*)/?$ index.php?ctrl=gunsskin
 
+RewriteRule ^cardsplayer/([0-9]*)/?$ index.php?ctrl=cardsplayer
+
 RewriteRule ^chromasskin/([0-9]*)/?$ index.php?ctrl=chromasskin
 
 RewriteRule ^infoagent/(.*)/$ index.php?ctrl=infoagent&agent=$1
